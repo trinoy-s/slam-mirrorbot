@@ -24,8 +24,14 @@ class _BotCommands:
         self.CountCommand = 'count'
         self.WatchCommand = 'watch'
         self.TarWatchCommand = 'tarwatch'
+        self.ZipWatchCommand = 'zipwatch'
+        self.QbMirrorCommand = 'qbmirror'
+        self.QbUnzipMirrorCommand = 'qbunzipmirror'
+        self.QbTarMirrorCommand = 'qbtarmirror'
+        self.QbZipMirrorCommand = 'qbzipmirror'
         self.DeleteCommand = 'del'
         self.ShellCommand = 'shell'
         self.ExecHelpCommand = 'exechelp'
+        self.TsHelpCommand = 'tshelp'
 
 BotCommands = _BotCommands()
